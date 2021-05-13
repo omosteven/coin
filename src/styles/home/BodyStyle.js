@@ -20,6 +20,9 @@ export const BodyFirstLayer = styled.section`
   display: block;
     // position:absolute;
   // border: 1px solid rgba(2, 3, 16, 0);
+  @media screen and (max-width: 769px) {
+    height:90vh;
+  }
 `;
 
 export const BodyFirstLayerInner = styled.div`
@@ -43,14 +46,14 @@ export const BodyFirstLayerTitle = styled.h3`
   line-height: 2em;
   color: #ffffff;
   width: 65%;
-  margin-top: 2em;
+  margin-top: 3em;
   @media screen and (max-width: 1025px) {
     width: 90%;
   }
   @media screen and (max-width: 769px) {
     width: 100%;
-    font-size: 1.8em;
-    line-height: 2em;
+    font-size: 1.5em;
+    line-height: 1.5em;
   }
 `;
 
@@ -67,7 +70,9 @@ export const BodyFirstLayerSubtitle = styled.h5`
   }
   @media screen and (max-width: 769px) {
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    margin-bottom:1em;
+    line-height:1.8em
   }
 `;
 
