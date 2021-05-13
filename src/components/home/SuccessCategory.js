@@ -10,14 +10,14 @@ const SuccessCategory = () => {
     AOS.init();
 
     const layer3 = [{
-        no: '1769',
+        no: '15',
         text: 'Successful Projects'
     }, {
-        no: '05',
+        no: '02',
         text: 'Office Locations'
     },
     {
-        no: '10+',
+        no: '2',
         text: 'Years in Business'
     },
     {

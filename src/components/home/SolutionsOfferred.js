@@ -14,7 +14,7 @@ const SolutionsOfferred = () => {
     return (
         <>
             <LayerContainer  data-aos="zoom-in" data-aos-duration="6000" data-aos-easing="linear">
-                <LayerFlexBoxSubtitle style={{ textAlign: 'center', marginBottom: '1em' }}>Solutions Offered</LayerFlexBoxSubtitle>
+                <LayerFlexBoxSubtitle style={{ textAlign: 'center', marginBottom: '1em' }}>SERVICES</LayerFlexBoxSubtitle>
                 <LayerFlexBox>
                     <LayerFlexBoxLeft>
                         <LayerFlexBoxImg src={SolutionsImg} />

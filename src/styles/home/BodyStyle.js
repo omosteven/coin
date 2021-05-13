@@ -43,7 +43,7 @@ export const BodyFirstLayerTitle = styled.h3`
   line-height: 2em;
   color: #ffffff;
   width: 65%;
-  margin-top: 3em;
+  margin-top: 2em;
   @media screen and (max-width: 1025px) {
     width: 90%;
   }
@@ -59,7 +59,7 @@ export const BodyFirstLayerSubtitle = styled.h5`
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 2em;
+  line-height: 1.7em;
   color: #ffffff;
   width: 50%;
   @media screen and (max-width: 1025px) {

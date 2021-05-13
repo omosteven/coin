@@ -32,7 +32,7 @@ const CoreValues = () => {
     return (
         <>
             <LayerContainer style={{ marginTop: '8em' }}>
-                <LayerFlexBoxSubtitle style={{ textAlign: 'center' }}>Our Values</LayerFlexBoxSubtitle>
+                <LayerFlexBoxSubtitle style={{ textAlign: 'center' }}>OUR VALUES</LayerFlexBoxSubtitle>
 
                 <LayerFlexBox>
                     {ourValues.map(eachOurValue => (

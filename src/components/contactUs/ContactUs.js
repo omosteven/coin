@@ -56,9 +56,9 @@ const ContactUs = () => {
                             <ContactBanner>
                                 <ContactBannerInner>
                                     <ContactHeadline>Contact Information</ContactHeadline>
-                                    <ContactInfo><RoomIcon style={{ fontSize: '1.1em' }} /> 326/328, Agege motor road, challenge bus stop, Mushin</ContactInfo>
-                                    <ContactInfo><MailOutlineIcon style={{ fontSize: '1.1em' }} /> info@coin.com.ng</ContactInfo>
-                                    <ContactInfo><CallOutlinedIcon style={{ fontSize: '1.1em' }} /> +234 8174 5896 86</ContactInfo>
+                                    <ContactInfo><RoomIcon style={{ fontSize: '1.1em' }} /> Address: Polystar 2nd Roundabout, Lekki Phase 1 105102, Lagos</ContactInfo>
+                                    <ContactInfo><MailOutlineIcon style={{ fontSize: '1.1em' }} /> info@coti.com.ng</ContactInfo>
+                                    <ContactInfo><CallOutlinedIcon style={{ fontSize: '1.1em' }} /> 08176050100</ContactInfo>
                                     <ContactInfo>
                                         <ContactIcon className="fab fa-instagram"></ContactIcon>
                                         <ContactIcon className="fab fa-facebook"></ContactIcon>

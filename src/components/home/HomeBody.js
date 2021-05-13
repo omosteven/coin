@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 
 import { BodyContainer, BodyFirstLayer, BodyFirstLayerInner, BodyFirstLayerSubtitle, BodyFirstLayerTitle, LayerButton, LayerContainer, LayerFlexBox, LayerFlexBoxImg, LayerFlexBoxLeft, LayerFlexBoxRight, LayerFlexBoxSubtitle, LayerFlexBoxText, LayerFlexBoxTitle } from '../../styles/home/BodyStyle';
 
-import TestImg from '../../images/home/idea-1876659_1920.jpg';
+import IndustriesImg from '../../images/home/Rectangle95.png';
 import WhoWeAreImg from '../../images/home/Rectangle 95-3.png';
 
 import CheckCircleRoundedIcon from '@material-ui/icons/CheckCircleRounded';
@@ -31,7 +31,9 @@ const HomeBody = () => {
                 <BodyFirstLayer>
                     <BodyFirstLayerInner>
                         <BodyFirstLayerTitle data-aos="fade-up" data-aos-duration="3000" data-aos-easing="linear">One stop shop software development <br />company</BodyFirstLayerTitle>
-                        <BodyFirstLayerSubtitle data-aos="fade-up" data-aos-duration="3000" data-aos-easing="linear">We turn the best of your business ideas into innovative software solutions and we can help with a wide range of applications services.</BodyFirstLayerSubtitle>
+                        <BodyFirstLayerSubtitle data-aos="fade-up" data-aos-duration="3000" data-aos-easing="linear">We provide business solution using technology. Working with leaders and organizations reimagine value to stakeholders and transform with digital technologies.
+                        <br />Combining a data-driven approach with deep business and technology experience, we craft innovative strategies and achieve impactful outcomes.
+                        </BodyFirstLayerSubtitle>
                         <LayerButton data-aos="fade-up" data-aos-duration="3000" data-aos-easing="linear">Get in Touch</LayerButton>
                     </BodyFirstLayerInner>
                 </BodyFirstLayer>
@@ -63,7 +65,7 @@ const HomeBody = () => {
                 <SuccessCategory />
 
                 <LayerContainer data-aos="zoom-in" data-aos-duration="6000" data-aos-easing="linear">
-                    <LayerFlexBoxSubtitle style={{ textAlign: 'center', marginBottom: '1em' }}>Industries we serve</LayerFlexBoxSubtitle>
+                    <LayerFlexBoxSubtitle style={{ textAlign: 'center', marginBottom: '1em' }}>INDUSTRIES</LayerFlexBoxSubtitle>
                     <LayerFlexBox>
                         <LayerFlexBoxLeft style={{ marginLeft: 'auto', marginRight: 'auto' }}>
                             <LayerFlexBoxText><CheckCircleRoundedIcon style={{ color: '#239D48', marginRight: '0.2em' }} /> Banks.</LayerFlexBoxText>
@@ -76,7 +78,7 @@ const HomeBody = () => {
                             <LayerFlexBoxText><CheckCircleRoundedIcon style={{ color: '#239D48', marginRight: '0.2em' }} /> Healthcare providers.</LayerFlexBoxText>
                         </LayerFlexBoxLeft>
                         <LayerFlexBoxRight>
-                            <LayerFlexBoxImg src={TestImg} />
+                            <LayerFlexBoxImg src={IndustriesImg} />
                         </LayerFlexBoxRight>
                     </LayerFlexBox>
                 </LayerContainer>

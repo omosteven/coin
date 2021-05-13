@@ -45,9 +45,9 @@ const HomeFooter = () => {
 
                         <FooterEachCard>
                             <FooterCardTitle>Contact Us</FooterCardTitle>
-                            <FooterCardText>Polystar 2nd Roundabout, Lekki Phase 1 105102, Lagos.</FooterCardText>
-                            <FooterCardText>Tel: <b>+23480176050100</b></FooterCardText>
-                            <FooterCardText>Email: <b>info@coin.com.ng</b></FooterCardText>
+                            <FooterCardText>Address: Polystar 2nd Roundabout, Lekki Phase 1 105102, Lagos.</FooterCardText>
+                            <FooterCardText>Tel: <b>08176050100</b></FooterCardText>
+                            <FooterCardText>Email: <b>info@coti.com.ng</b></FooterCardText>
                             <FooterCardText> <ContactIcon className="fab fa-instagram"></ContactIcon>
                                 <ContactIcon className="fab fa-facebook"></ContactIcon>
                                 <ContactIcon className="fab fa-twitter-square"></ContactIcon>
