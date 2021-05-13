@@ -2,17 +2,14 @@
 
 ### ctil
 
-An application used to handle client based KYC, built with React, Material UI, Styled Components
+A landing page application built with React, and Styled Components
 
 ## Project Status
 - Complete
 
 ## Project Description
 
-This project is a simple KYC application where users can do the following
-[ FILL IN THEIR BASIC INFORMATION ]
-[ UPLOAD THEIR DOCUMENT ]
-[ TAKE PICTURE OF THEIR SELF ]
+This project is a business website for co.in
 
 
 ## Installation and Setup Instructions
@@ -37,14 +34,13 @@ To Visit App:
 
 ## Reflection 
 
-This was a 4 hours project built by me (Steven Omole-Adebomi). 
+This was a Three (3) days project built by me (Steven Omole-Adebomi). 
 
 ### Technologies
- - Material UI
  - Styled Components
  - React Router
- - Material UI Dropzone
- - React Html5 Camera Photo
+ - AOS
+ - React Helmet
 
 ## Folder Structure
 

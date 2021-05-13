@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Helmet } from 'react-helmet';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -22,6 +24,9 @@ const HomeBody = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Welcome to Co.in</title>
+            </Helmet>
             <BodyContainer>
                 <BodyFirstLayer>
                     <BodyFirstLayerInner>
@@ -60,7 +65,7 @@ const HomeBody = () => {
                 <LayerContainer data-aos="zoom-in" data-aos-duration="6000" data-aos-easing="linear">
                     <LayerFlexBoxSubtitle style={{ textAlign: 'center', marginBottom: '1em' }}>Industries we serve</LayerFlexBoxSubtitle>
                     <LayerFlexBox>
-                        <LayerFlexBoxLeft style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto' }}>
+                        <LayerFlexBoxLeft style={{ marginLeft: 'auto', marginRight: 'auto' }}>
                             <LayerFlexBoxText><CheckCircleRoundedIcon style={{ color: '#239D48', marginRight: '0.2em' }} /> Banks.</LayerFlexBoxText>
                             <LayerFlexBoxText><CheckCircleRoundedIcon style={{ color: '#239D48', marginRight: '0.2em' }} /> Fintech.</LayerFlexBoxText>
                             <LayerFlexBoxText><CheckCircleRoundedIcon style={{ color: '#239D48', marginRight: '0.2em' }} /> Tele communication.</LayerFlexBoxText>

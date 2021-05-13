@@ -2,6 +2,7 @@ import React from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Helmet } from 'react-helmet';
 
 import { Layer3DarkCard, Layer3DarkCard2, Layer3DarkCard3, Layer3DarkCardText, PageContainer, PageFirstLayer, PageFirstLayerInner, PageFirstLayerText } from '../../styles/aboutUs/AboutUsStyle';
 import { LayerContainer, LayerFlexBox, LayerFlexBoxImg, LayerFlexBoxLeft, LayerFlexBoxRight, LayerFlexBoxSubtitle, LayerFlexBoxText, LayerNonFlexBox } from '../../styles/home/BodyStyle';
@@ -18,6 +19,9 @@ const AboutUs = () => {
 
     return (
         <>
+            <Helmet>
+                <title>About Us - Co.in</title>
+            </Helmet>
             <PageContainer>
                 <PageFirstLayer>
                     <PageFirstLayerInner>

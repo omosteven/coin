@@ -1,4 +1,10 @@
 import React from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+import { Helmet } from 'react-helmet';
+
 import { Layer3Card, Layer3CardImg, Layer3CardImgBox, Layer3CardText, Layer3CardTitle, LayerContainer, LayerFlexBox } from '../../styles/home/BodyStyle';
 import FooterBottom from '../home/FooterBottom';
 
@@ -9,6 +15,8 @@ import { PageContainer, PageFirstLayer, PageFirstLayerInner, PageFirstLayerText 
 
 const Services = () => {
 
+    AOS.init();
+    
     const ourServices1 = [{
         no: 1,
         title: 'Security Integration',
@@ -57,6 +65,9 @@ const Services = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Our Services - Co.in</title>
+            </Helmet>
             <PageContainer>
                 <PageFirstLayer>
                     <PageFirstLayerInner>
@@ -67,7 +78,7 @@ const Services = () => {
                     <LayerFlexBox>
 
                         {ourServices1.map(eachService => (
-                            <Layer3Card key={eachService.no}>
+                            <Layer3Card key={eachService.no} data-aos="zoom-in" data-aos-duration="6000" data-aos-easing="linear">
                                 <Layer3CardImgBox>
                                     <Layer3CardImg src={ServiceImg1} />
                                 </Layer3CardImgBox>
@@ -83,7 +94,7 @@ const Services = () => {
                     <LayerFlexBox>
 
                         {ourServices2.map(eachService => (
-                            <Layer3Card key={eachService.no}>
+                            <Layer3Card key={eachService.no} data-aos="zoom-in" data-aos-duration="6000" data-aos-easing="linear">
                                 <Layer3CardImgBox>
                                     <Layer3CardImg src={ServiceImg2} />
                                 </Layer3CardImgBox>
@@ -99,7 +110,7 @@ const Services = () => {
                     <LayerFlexBox>
 
                         {ourServices3.map(eachService => (
-                            <Layer3Card key={eachService.no}>
+                            <Layer3Card key={eachService.no} data-aos="zoom-in" data-aos-duration="6000" data-aos-easing="linear">
                                 <Layer3CardImgBox>
                                     <Layer3CardImg src={ServiceImg3} />
                                 </Layer3CardImgBox>

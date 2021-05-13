@@ -2,7 +2,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  // Redirect,
+  Redirect,
 } from 'react-router-dom';
 
 import { PageTransition } from './AppStyle';
@@ -20,14 +20,13 @@ const App = () => {
       <PageTransition>
         <Router>
           <Switch>
-            <Route exact path="/" component={HomePage} />
-            {/* <Route exact path="/*" component={HomePage}>
-              <Redirect to="/home" component={HomePage} />
-            </Route> */}
+            <Route exact path="/home/" component={HomePage} />
             <Route exact path="/aboutus/" component={AboutUsPage} />
             <Route exact path="/services/" component={ServicesPage} />
             <Route exact path="/contactus/" component={ContactUsPage} />
-
+            <Route exact path="/*" component={HomePage}>
+              <Redirect to="/home/" component={HomePage} />
+            </Route>
           </Switch>
         </Router>
       </PageTransition>
